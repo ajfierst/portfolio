@@ -8,7 +8,7 @@ export default function About() {
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                 Hi, I'm Austin.
                 <br className="lg:inline-block" />
-                I'm a Web and Game Developer.
+                I'm a Web Developer.
               </h1>
               <p className="mb-8 leading-relaxed">
                 I'm currently part of the Creative Media and Digital Culture program at Washington State University, with a minor in Computer Science.
@@ -31,7 +31,7 @@ export default function About() {
               <img
                 className="object-cover object-center rounded-xl"
                 alt="hero"
-                src="me.jpg"
+                src="/me.jpg"
               />
             </div>
           </div>

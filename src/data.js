@@ -1,19 +1,27 @@
 export const projects = [
   {
+    title: "WSU Vancouver is...",
+    subtitle: "JavaScript, HTML, CSS",
+    description:
+        "I carried the role of Web Development Team Lead in a campaign to increase community interest in pursuing higher education at Washington State University Vancouver for the Marketing and Communications Department.",
+    image: "./wsu-vancouver-is.jpeg",
+    link: "#projects",
+  },
+  {
+    title: "Othello",
+    subtitle: "SwiftUI",
+    description:
+        "Using SwiftUI and XCode I recreated the classic board game Othello for iOS.",
+    image: "./othello-game.png",
+    link: "https://github.com/ajfierst/Othello",
+  },
+  {
     title: "Hansel and Gretel: A Modern Retelling",
     subtitle: "HTML and CSS",
     description:
       "A narrative website created by using HTML and CSS. I wanted to take a classic Grimm Brother's fairy tale and reimagine it in a modern way.",
     image: "./project-hanselgretel.gif",
     link: "https://dtc-wsuv.org/afierst22/narrative/",
-  },
-  {
-    title: "Divinity: Original Sin 2 Mod",
-    subtitle: "Divinity Engine",
-    description:
-      "A mod made using Larian Studios' Divinity Engine. Inspired by my love for the Harry Potter series, I wanted to bring some of its characters to life in a new way.",
-    image: "./project-mod.gif",
-    link: "#projects",
   },
   {
     title: "Weather App",
@@ -33,26 +41,18 @@ export const projects = [
   },
   {
     title: "Knight Runner",
-    subtitle: "JavaScript and Canvas",
+    subtitle: "JavaScript and HTML Canvas",
     description:
       "An \"endless runner\" game made using Canvas and JavaScript. My first programming project that uses sprites and animations. Give it a try!",
     image: "./project-canvasgame.gif",
     link: "https://dtc-wsuv.org/afierst22/canvas-game/",
-  },
-  {
-    title: "Personal Project",
-    subtitle: "Unreal Engine 5",
-    description:
-      "This project is a personal one that I am using to learn the ins-and-outs of Unreal Engine 5. I one day hope to finish it as a single-player RPG.",
-    image: "./project-ue5.gif",
-    link: "#projects",
   },
 ];
 
 export const biography = [
   {
     quote:
-      "I was born and raised in Vancouver, WA. Prior to starting my journey at Washington State University, I served for 4 years in the United States Army. Growing up I was always tinkering with anything and everything to learn about how things worked. It's a habit I don't think I'll ever outgrow, as today I find myself passionate about programming - determined to develop web applications and games. ",
+      "I was born and raised in Vancouver, WA. Prior to starting my journey at Washington State University, I served four years in the United States Army. Growing up I was always tinkering with anything and everything to learn about how things worked. It's a habit I don't think I'll ever outgrow, as today I find myself passionate about programming - determined to develop web applications and my knowledge in the field. ",
     image: "./profile.jpg",
     name: "Austin Fierst",
     company: "WSU Vancouver",
@@ -61,11 +61,11 @@ export const biography = [
 
 export const skills = [
   "JavaScript",
+  "TypeScript",
+  "HTML5",
+  "CSS3",
   "React",
-  "HTML",
-  "CSS",
   "Python 3",
+  "C#",
   "C++",
-  "Unreal Engine",
-  "Unity"
 ];

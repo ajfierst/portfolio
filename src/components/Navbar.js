@@ -20,7 +20,7 @@ export default function Navbar() {
               <a href="#biography" className="mr-5 hover:text-white">
                 Bio
               </a>
-              <a href="" className="mr-5 hover:text-white">
+              <a href="https://drive.google.com/file/d/1W99KZdFH-gzODr1Okxc6R5N7SEYrtr7W/view?usp=sharing" className="mr-5 hover:text-white">
                 Resume
               </a>
             </nav>
